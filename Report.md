@@ -1,4 +1,4 @@
-# 💣 MineSweeper CLI
+# 💣 MineSweeper CLI - Report
 
 ## Design Problem
 
