@@ -100,7 +100,7 @@ Mine placement was improved by accepting a `java.util.Random` object as a constr
 - **Model is independently testable:** Methods like `revealCell()`, `countMines()`, and `checkWin()` could now be called in JUnit tests without any console interaction.
 - **Path testing became feasible:** With game logic isolated in `GameModel`, we could draw control flow graphs for individual methods and identify independent paths for path coverage testing.
 
-**Use Case and Sequence Diagrams for Solution 2**
+**Use Case, Sequence, and Class Diagrams for Solution 2**
 
 <p align="center">
   <img src="img/use.png" alt="Use Case Diagram" width="600"/>
@@ -113,6 +113,11 @@ Mine placement was improved by accepting a `java.util.Random` object as a constr
   <img src="img/seq.png" alt="Sequence Diagram" width="600"/>
 </p>
 <p align="center"><em>Figure 2: Sequence Diagram</em></p>
+
+<p align="center">
+  <img src="img/class.webp" alt="Class Diagram" width="600"/>
+</p>
+<p align="center"><em>Figure 3: Class Diagram</em></p>
 
 **Why this solution was still not selected (remaining testing limitations):**
 
